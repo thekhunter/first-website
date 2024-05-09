@@ -1,0 +1,58 @@
+body{
+    font-family:helvetica;
+}
+h1,h2,h3{
+    font-family: arial;
+}
+.header{
+    display:flex;
+    border-bottom: solid;
+}
+#smallTitle{
+    padding-right:70%
+}
+#home,#projects,#aboutMe{
+    padding-right: 6px;
+    padding-left: 6px;
+    justify-content: flex-end;
+}
+.title{
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 70% 30%;
+}
+#bigTitle{
+    font-size:60px;
+    margin:050px 0px 100px;
+    text-align: left;
+}
+#description{
+    text-align: left;
+    font-style: italic;
+}
+#bio{
+    position: relative;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+.i-am,.i-like{
+    text-align: left;
+    list-style-type: none;
+    text-decoration: none;
+    display:inline;
+    padding:0px 10px;
+    border:solid
+}
+.iLikeList,.iAmList{
+    list-style-type: none;
+    display: inline;
+    padding: 0px 10px;
+    border:solid
+}
+li{
+    padding: 2px 0px;
+}
+h2{
+    border:solid
+}
